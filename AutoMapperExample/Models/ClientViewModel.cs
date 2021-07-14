@@ -12,5 +12,9 @@ namespace AutoMapperExample.Models
         public string LastName { get; set; }
         public string Email { get; set; }
         public string Phone { get; set; }
+
+        public string  AddressStreet { get; set; }
+        public int AddressNumber { get; set; }
+        public string AddressCity { get; set; }
     }
 }

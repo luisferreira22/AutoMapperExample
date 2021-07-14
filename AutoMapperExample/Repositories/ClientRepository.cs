@@ -16,7 +16,13 @@ namespace AutoMapperExample.Repositories
                 FirstName = " Lando",
                 LastName = "Norris",
                 Email = "LandoNorris@McLaren.com",
-                Phone = "123456"
+                Phone = "123456",
+                Address = new Address
+                {
+                    Street = "San Remo",
+                    Number = 123,
+                    City="Monaco"
+                }
             };
         }
     }
